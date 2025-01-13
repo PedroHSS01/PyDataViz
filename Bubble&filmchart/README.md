@@ -1,10 +1,20 @@
-# Gráfico de bolhas e filmes
+# 📊Gráfico de bolhas e filmes🎬
 
-Todo o projeto foi desenvolvido com muito carinho e dedicação. A fim de ilustrar o potencial do gráfico de bolhas em análises práticas. Explicarei para que serve e com cheguei à essa v conclusão.
+Todo o projeto foi desenvolvido com muito carinho e dedicação. A fim de ilustrar o potencial do gráfico de bolhas em análises práticas. Explicarei para que serve e com cheguei à essa 👇 conclusão.
 
-## Descrição
+<img src="https://raw.githubusercontent.com/PedroHSS01/PyDataViz/refs/heads/main/Bubble%26filmchart/graficos/Filmes%26S%C3%A9riesNetflixplot.png">
 
-O desenvolvimento desse projeto foi executado usando o serviço do Jupyter Notebook o que não implica em ser usado em outros serviços.
+## Descrição 📝
+
+Este gráfico de bolhas oferece uma visão dos filmes e séries da <img src="https://emojis.slackmojis.com/emojis/images/1643514492/4757/netflix.png?1643514492" width="20">, permitindo analisar diversos aspectos como gênero, classificação IMDb e ano de lançamento. Cada bolha representa uma produção, com seu tamanho proporcional a um fator relevante como número de votos por exemplo.
+
+Embora a quantidade de dados possa inicialmente parecer complexa e visualmente poluída, é possível filtrar por gênero para uma análise mais focada. Ao passar o cursor sobre uma bolha, são exibidas informações detalhadas sobre a produção, incluindo título, gênero, ano de lançamento, classificação IMDb e número de votos.
+
+Há também uma versão similar desse gráfico, focada especificamente em 🎄filmes de Natal🎅, permitindo identificar os títulos mais populares, os gêneros mais comuns ao longo dos anos nesse período festivo.
+
+<img src="https://raw.githubusercontent.com/PedroHSS01/PyDataViz/refs/heads/main/Bubble%26filmchart/graficos/FilmesNatalinosplot.png">
+
+O desenvolvimento desse projeto foi executado usando o serviço do Jupyter Notebook o que não implica em ser usado em outros serviços. 
 
 Os DataFrame coletados são públicos e encontrados no kaggle [aqui](https://www.kaggle.com/code/josluizfjunior/an-lise-de-filmes-netflix/input) e [aqui](https://www.kaggle.com/datasets/jonbown/christmas-movies/data). Também estão disponíveis na pasta `dadoscsv` para sua comodidade.
 
@@ -24,9 +34,9 @@ Quando você precisar da relação entre três variáveis ao mesmo tempo. Imagin
 
 Gráficos de bolhas não são ideais para apenas duas variáveis (use um gráfico de dispersão comum). Muitos dados podem tornar o gráfico confuso; considere dividi-los ou uma visualização mais adquada. 
 
-## Exemplo 
+## Exemplo 💡
 
-No projeto `Bubble&filmchart` foi elaborado um exemplo de como foram utilizados os dados para a construção dos gráfico interativo. Os Módulos e bibliotecas utilizados foram:
+No projeto `Bubble&filmchart` foi elaborado um exemplo de como foram utilizados os dados para a construção dos gráfico interativo. Os módulos e bibliotecas utilizados foram:
 
 ``` 
 import plotly.express as px
@@ -46,6 +56,6 @@ Esse projeto tem como inspiração as ideias de:
  - [Andre Kuniyoshi](https://www.linkedin.com/in/andrekuniyoshi/)
  - ...
 
-## Feedback
+## Feedback 🗨️
 
-Se você tiver algum feedback, por favor, envie uma mensagem por meio do email: 2pedrohss@gmail.com ou entre em contado no [Linkedin](https://www.linkedin.com/in/pedro-h-s-sousa/).
+Se você tiver algum feedback, por favor, envie uma mensagem por meio do e-mail: 2pedrohss@gmail.com ou entre em contado no [LinkedIn.](https://www.linkedin.com/in/pedro-h-s-sousa/)
